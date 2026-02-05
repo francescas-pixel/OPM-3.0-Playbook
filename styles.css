@@ -264,6 +264,20 @@ section {
     font-weight: 700;
 }
 
+.vision__visual {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.vision__image {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
 /* ─────────────────────────────────────────────────────────────────────
    Section 3: Principles
    ───────────────────────────────────────────────────────────────────── */
@@ -427,6 +441,21 @@ section {
     font-weight: 700;
 }
 
+.format-screenshot {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.format-screenshot img {
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
 /* ─────────────────────────────────────────────────────────────────────
    Section 6: Core Formats
    ───────────────────────────────────────────────────────────────────── */
@@ -487,6 +516,24 @@ section {
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 1;
+}
+
+.format-card__image {
+    margin-bottom: 1.5rem;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.format-card__image img {
+    max-width: 100%;
+    max-height: 280px;
+    height: auto;
+    object-fit: contain;
 }
 
 /* ─────────────────────────────────────────────────────────────────────
